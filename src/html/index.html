@@ -4,9 +4,54 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Eric Holdener</title>
+  <link rel="stylesheet" href="../css/styles.css">
+  <script src="../js/scripts.js"></script>
+  <script src="../../node_modules/jquery/dist/jquery.js"></script>
+  <script>
+    $(function() {
+      $("#profile-photo").hover(
+        function() {
+          $(this).attr('src', '../img/Eric-gif.gif');
+        },
+        function() {
+          $(this).attr('src', '../img/Eric-gif.jpg');
+        }
+      );
+    });
+  </script>
 </head>
 <body>
-  
+  <nav class="header">
+    <p>navbar</p>
+  </nav>
+  <div class="main-content">
+    <div class="about-me">
+      <div class="profile-container">
+        <img src="../img/Eric-gif.jpg" alt="Photo of Eric" id="profile-photo">
+      </div>
+      <div class="text-content">
+        <h1>About Me</h1>
+        <p>This is text to tell the reader about me</p>
+      </div>
+    </div>
+    <div class="projects">
+      <h1>Personal Projects</h1>
+      <div class="cards">
+        <div class="card">
+          <img src="../img/facebook-clone-photo.png" alt="Photo of Facebook clone project" class="card-photo">
+          <h2>Facebook Clone</h2>
+          <p>Description of Facebook Clone</p>
+        </div>
+        <div class="card">
+          <h2>Project 2</h2>
+          <p>Placeholder text for project 2</p>
+        </div>
+      </div>
+    </div>
+    <div class="contact">
+
+    </div>
+  </div>
 </body>
 </html>

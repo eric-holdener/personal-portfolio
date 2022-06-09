@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+}
+
+.header-content {
+  background-color: lightblue;
+}
+
+.about-me {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 15vw;
+  padding-right: 15vw;
+}
+
+#profile-photo {
+  width: 600px;
+  height: auto;
+  flex-grow: 0;
+}
+
+.projects {
+  background-color: #404E5B;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 30px;
+  margin: 15px;
+  border-radius: 15px;
+}
+
+.card-photo {
+  width: 600px;
+  height: auto;
+}
