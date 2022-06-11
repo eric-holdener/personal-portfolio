@@ -1,5 +1,5 @@
 .swiper-slide {
-  background-color: #222831;
+  background: linear-gradient(to right, #222831, #393E46);
 }
 
 .main-text {
@@ -14,6 +14,7 @@
 .card {
   height: 75vh;
   width: 100%;
+  background-color: #EEEEEE !important;
 }
 
 .link-images {
@@ -28,4 +29,23 @@
 
 .swiper-pagination-bullet {
   background-color: #00ADB5 !important;
+}
+
+.projectbutton {
+  background-color: #222831 !important;
+  border: 2px solid #00ADB5 !important;
+  color: #EEEEEE !important;
+}
+
+.projectbutton:focus {
+  background-color: #00ADB5 !important;
+}
+
+.card-title > .row > .col > h2 {
+  color: #00ADB5 !important;
+  font-weight: bold !important;
+}
+
+.card-text {
+  color: #222831 !important;
 }

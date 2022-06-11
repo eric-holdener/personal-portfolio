@@ -1,113 +1,100 @@
- <div data-bs-spy="scroll" data-bs-target="#navbar" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
-    <div class="main-content">
-      <div class="container hello-screen" id="scrollspyHeading1">
-        <div data-aos="fade-up">
-          <p>First thing you see</p>
-        </div>
-      </div>
-      <div class="container about-me d-flex justify-content-center align-items-center" id="scrollspyHeading2" data-aos="fade-up">
-        <div data-aos="fade-up">
-          <div class="row gx-0 d-flex align-items-center">
-            <div class="col">
-              <img src="assets/img/profile/Eric-gif.jpg" alt="Photo of Eric" id="profile-photo" class="border-bottom border-3 border-dark">
-            </div>
-            <div class="col bg-white shadow px-4 py-4 d-flex flex-column">
-              <h1>A little about me...</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel odio ultricies, elementum tellus ac, efficitur mauris. Integer ut libero in mauris accumsan sodales ut vel velit. Nulla eu euismod leo. Etiam vel pharetra magna, ut vehicula est. Quisque blandit nulla nec augue eleifend, quis posuere sem eleifend. Quisque sit amet euismod magna. Integer ut lacus feugiat, sollicitudin lorem ac, condimentum orci. Sed fermentum vehicula efficitur. Nullam hendrerit urna dolor.
-              </p>
-              <div class="d-flex justify-content-end">
-                <a href="https://github.com/eric-holdener">
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="Github Logo" class="link-images">
-                </a>
-                <a href="https://linkedin.com/in/eric-holdener">
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg" alt="Linkedin Logo" class="link-images">
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container projects" id="scrollspyHeading3">
-        <div data-aos="fade-up">
-          <h1>Personal Projects</h1>
-          <div class="row d-flex">
-            <div class="col d-flex flex-column flex-grow-0">
-              <button class="btn btn-primary text-nowrap mb-3 mt-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFacebook" aria-expanded="false" aria-controls="#collapseFacebook">Facebook Clone</button>
-              <button class="btn btn-primary text-nowrap" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePersonalPortfolio" aria-expanded="false" aria-controls="#collapsePersonalPortfolio">Personal Portfolio</button>
-            </div>
-            <div class="col">
-              <div class="collapse collapse-horizontal" id="collapseFacebook">
-                <div class="card">
-                  <div class="card-body">
-                    <div class="card-title">
-                      <div class="row">
-                        <div class="col">
-                          <h2>Facebook Clone</h2>
-                        </div>
-                        <div class="col d-flex justify-content-end">
-                          <a href="https://protected-cliffs-75013.herokuapp.com/">
-                            <img src="../img/open-in-new.svg" alt="Open link in new tab" class="link-images">
-                          </a>
-                          <a href="https://github.com/eric-holdener/odin-facebook">
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt='Github Logo' class='link-images'>
-                          </a>
-                          <a href="">
-                            <img src="../img/post.svg" alt="Blog icon" class="link-images">
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <p class="card-text">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel odio ultricies, elementum tellus ac, efficitur mauris. Integer ut libero in mauris accumsan sodales ut vel velit. Nulla eu euismod leo. Etiam vel pharetra magna, ut vehicula est. Quisque blandit nulla nec augue eleifend, quis posuere sem eleifend. Quisque sit amet euismod magna. Integer ut lacus feugiat, sollicitudin lorem ac, condimentum orci. Sed fermentum vehicula efficitur. Nullam hendrerit urna dolor.
-                    </p>
-                  </div>
+<div class="container projects">
+  <h1>Personal Projects</h1>
+  <div class="row d-flex">
+    <div class="col d-flex flex-column flex-grow-0">
+      <button class="btn text-nowrap mb-3 mt-3 projectbutton" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFacebook" aria-expanded="false" aria-controls="#collapseFacebook">Facebook Clone</button>
+      <button class="btn text-nowrap projectbutton" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePersonalPortfolio" aria-expanded="false" aria-controls="#collapsePersonalPortfolio">Personal Portfolio</button>
+    </div>
+    <div class="col">
+      <div class="collapse collapse-horizontal" id="collapseFacebook">
+        <div class="card">
+          <div class="card-body">
+            <div class="card-title">
+              <div class="row">
+                <div class="col">
+                  <h2>Facebook Clone</h2>
                 </div>
-              </div>
-              <div class="collapse collapse-horizontal" id="collapsePersonalPortfolio">
-                <div class="card">
-                  <div class="card-body">
-                    <div class="card-title">
-                      <div class="row">
-                        <div class="col">
-                          <h2>Personal Porfolio</h2>
-                        </div>
-                        <div class="col d-flex justify-content-end">
-                          <a href="">
-                            <img src="../img/open-in-new.svg" alt="Open link in new tab" class="link-images">
-                          </a>
-                          <a href="https://github.com/eric-holdener/personal-portfolio">
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt='Github Logo' class='link-images'>
-                          </a>
-                          <a href="">
-                            <img src="../img/post.svg" alt="Blog icon" class="link-images">
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <p class="card-text">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel odio ultricies, elementum tellus ac, efficitur mauris. Integer ut libero in mauris accumsan sodales ut vel velit. Nulla eu euismod leo. Etiam vel pharetra magna, ut vehicula est. Quisque blandit nulla nec augue eleifend, quis posuere sem eleifend. Quisque sit amet euismod magna. Integer ut lacus feugiat, sollicitudin lorem ac, condimentum orci. Sed fermentum vehicula efficitur. Nullam hendrerit urna dolor.
-                    </p>
-                  </div>
+                <div class="col d-flex justify-content-end">
+                  <a href="https://protected-cliffs-75013.herokuapp.com/">
+                    <img src="assets/img/icons/open-in-new.svg" alt="Open link in new tab" class="link-images">
+                  </a>
+                  <a href="https://github.com/eric-holdener/odin-facebook">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt='Github Logo' class='link-images'>
+                  </a>
+                  <a href="">
+                    <img src="assets/img/icons/post.svg" alt="Blog icon" class="link-images">
+                  </a>
                 </div>
               </div>
             </div>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel odio ultricies, elementum tellus ac, efficitur mauris. Integer ut libero in mauris accumsan sodales ut vel velit. Nulla eu euismod leo. Etiam vel pharetra magna, ut vehicula est. Quisque blandit nulla nec augue eleifend, quis posuere sem eleifend. Quisque sit amet euismod magna. Integer ut lacus feugiat, sollicitudin lorem ac, condimentum orci. Sed fermentum vehicula efficitur. Nullam hendrerit urna dolor.
+            </p>
           </div>
         </div>
       </div>
-      <div class="container contact" id="scrollspyHeading4">
-        <div data-aos="fade-up">
-          <div class="row">
-            <div class="col">
-              <h1>Contact Me</h1>
-              <p>If you like what you've seen here, or want to talk more, please reach out!</p>
-              <p>559-905-5521</p>
-              <p>eholdener12@gmail.com</p>
+      <div class="collapse collapse-horizontal" id="collapsePersonalPortfolio">
+        <div class="card">
+          <div class="card-body">
+            <div class="card-title">
+              <div class="row">
+                <div class="col">
+                  <h2>Personal Porfolio</h2>
+                </div>
+                <div class="col d-flex justify-content-end">
+                  <a href="">
+                    <img src="assets/img/icons/open-in-new.svg" alt="Open link in new tab" class="link-images">
+                  </a>
+                  <a href="https://github.com/eric-holdener/personal-portfolio">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt='Github Logo' class='link-images'>
+                  </a>
+                  <a href="">
+                    <img src="assets/img/icons/post.svg" alt="Blog icon" class="link-images">
+                  </a>
+                </div>
+              </div>
             </div>
-            <div class="col">
-  
-            </div>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel odio ultricies, elementum tellus ac, efficitur mauris. Integer ut libero in mauris accumsan sodales ut vel velit. Nulla eu euismod leo. Etiam vel pharetra magna, ut vehicula est. Quisque blandit nulla nec augue eleifend, quis posuere sem eleifend. Quisque sit amet euismod magna. Integer ut lacus feugiat, sollicitudin lorem ac, condimentum orci. Sed fermentum vehicula efficitur. Nullam hendrerit urna dolor.
+            </p>
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>
+
+<div class="container contact">
+  <div class="row">
+    <div class="col">
+      <h1>Contact Me</h1>
+      <p>If you like what you've seen here, or want to talk more, please reach out!</p>
+      <p>559-905-5521</p>
+      <p>eholdener12@gmail.com</p>
+    </div>
+    <div class="col">
+
+    </div>
+  </div>
+</div>
+
+<div class="container about-me d-flex justify-content-center align-items-center">
+  <div class="row gx-0 d-flex align-items-center">
+    <div class="col">
+      <img src="assets/img/profile/Eric-gif.jpg" alt="Photo of Eric" id="profile-photo" class="border-bottom border-3 border-dark">
+    </div>
+    <div class="col bg-white shadow px-4 py-4 d-flex flex-column">
+      <h1>A little about me...</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel odio ultricies, elementum tellus ac, efficitur mauris. Integer ut libero in mauris accumsan sodales ut vel velit. Nulla eu euismod leo. Etiam vel pharetra magna, ut vehicula est. Quisque blandit nulla nec augue eleifend, quis posuere sem eleifend. Quisque sit amet euismod magna. Integer ut lacus feugiat, sollicitudin lorem ac, condimentum orci. Sed fermentum vehicula efficitur. Nullam hendrerit urna dolor.
+      </p>
+      <div class="d-flex justify-content-end">
+        <a href="https://github.com/eric-holdener">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="Github Logo" class="link-images">
+        </a>
+        <a href="https://linkedin.com/in/eric-holdener">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg" alt="Linkedin Logo" class="link-images">
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
