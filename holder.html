@@ -1,49 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Eric Holdener</title>
-  <link rel="stylesheet" href="assets/css/styles.css">
-  <script src="assets/js/scripts.js"></script>
-  <script src="assets/node_modules/jquery/dist/jquery.js"></script>
-
-
-  <link href="assets/node_modules/aos/dist/aos.css" rel="stylesheet">
-  <link href="assets/node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons-2.1.2/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/dist/css/glightbox.min.css" rel="stylesheet">
-  <link
-  rel="stylesheet"
-  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
-
-  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-  <script>
-    $(function() {
-      $("#profile-photo").hover(
-        function() {
-          $(this).attr('src', 'assets/img/profile/Eric-gif.gif');
-        },
-        function() {
-          $(this).attr('src', 'assets/img/profile/Eric-gif.jpg');
-        }
-      );
-    });
-  </script>
-
-</head>
-<body>
-  <!-- Slider main container -->
-  <div class="swiper">
-    <!-- Additional required wrapper -->
-    <div class="swiper-wrapper">
-      <!-- Slides -->
-      <div class="swiper-slide">
-        <h1 class="main-text">Welcome</h1>
+ <div data-bs-spy="scroll" data-bs-target="#navbar" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+    <div class="main-content">
+      <div class="container hello-screen" id="scrollspyHeading1">
+        <div data-aos="fade-up">
+          <p>First thing you see</p>
+        </div>
       </div>
-      <div class="swiper-slide">
-        <div class="container about-me d-flex justify-content-center align-items-center">
+      <div class="container about-me d-flex justify-content-center align-items-center" id="scrollspyHeading2" data-aos="fade-up">
+        <div data-aos="fade-up">
           <div class="row gx-0 d-flex align-items-center">
             <div class="col">
               <img src="assets/img/profile/Eric-gif.jpg" alt="Photo of Eric" id="profile-photo" class="border-bottom border-3 border-dark">
@@ -64,9 +27,8 @@
           </div>
         </div>
       </div>
-      <div class="swiper-slide">Resume</div>
-      <div class="swiper-slide">
-        <div class="container projects">
+      <div class="container projects" id="scrollspyHeading3">
+        <div data-aos="fade-up">
           <h1>Personal Projects</h1>
           <div class="row d-flex">
             <div class="col d-flex flex-column flex-grow-0">
@@ -84,13 +46,13 @@
                         </div>
                         <div class="col d-flex justify-content-end">
                           <a href="https://protected-cliffs-75013.herokuapp.com/">
-                            <img src="assets/img/icons/open-in-new.svg" alt="Open link in new tab" class="link-images">
+                            <img src="../img/open-in-new.svg" alt="Open link in new tab" class="link-images">
                           </a>
                           <a href="https://github.com/eric-holdener/odin-facebook">
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt='Github Logo' class='link-images'>
                           </a>
                           <a href="">
-                            <img src="assets/img/icons/post.svg" alt="Blog icon" class="link-images">
+                            <img src="../img/post.svg" alt="Blog icon" class="link-images">
                           </a>
                         </div>
                       </div>
@@ -111,13 +73,13 @@
                         </div>
                         <div class="col d-flex justify-content-end">
                           <a href="">
-                            <img src="assets/img/icons/open-in-new.svg" alt="Open link in new tab" class="link-images">
+                            <img src="../img/open-in-new.svg" alt="Open link in new tab" class="link-images">
                           </a>
                           <a href="https://github.com/eric-holdener/personal-portfolio">
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt='Github Logo' class='link-images'>
                           </a>
                           <a href="">
-                            <img src="assets/img/icons/post.svg" alt="Blog icon" class="link-images">
+                            <img src="../img/post.svg" alt="Blog icon" class="link-images">
                           </a>
                         </div>
                       </div>
@@ -132,8 +94,8 @@
           </div>
         </div>
       </div>
-      <div class="swiper-slide">
-        <div class="container contact">
+      <div class="container contact" id="scrollspyHeading4">
+        <div data-aos="fade-up">
           <div class="row">
             <div class="col">
               <h1>Contact Me</h1>
@@ -148,42 +110,4 @@
         </div>
       </div>
     </div>
-    <!-- If we need pagination -->
-    <div class="swiper-pagination"></div>
-
   </div>
-
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>AOS.init();</script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-  <script>
-  const swiper = new Swiper('.swiper', {
-    // Optional parameters
-    direction: 'vertical',
-    loop: true,
-    mousewheel: true,
-    slidesPerView: 1,
-    effect: 'slide',
-    focusableElements: 'button',
-    rewind: true,
-
-    // If we need pagination
-    pagination: {
-      el: '.swiper-pagination',
-      clickable: true
-    },
-
-    // Navigation arrows
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-
-    // And if we need scrollbar
-    // scrollbar: {
-    //   el: '.swiper-scrollbar',
-    // },
-  });
-  </script>
-</body>
-</html>

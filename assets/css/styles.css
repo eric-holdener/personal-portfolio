@@ -1,6 +1,9 @@
-.hello-screen, .about-me, .projects, .contact {
-  padding-top: 5vh;
-  height: 100vh;
+.swiper-slide {
+  background-color: #222831;
+}
+
+.main-text {
+  color: #EEEEEE;
 }
 
 #profile-photo {
@@ -16,4 +19,13 @@
 .link-images {
   width: 36px;
   height: auto;
+}
+
+.swiper {
+  width: 100vw;
+  height: 100vh;
+}
+
+.swiper-pagination-bullet {
+  background-color: #00ADB5 !important;
 }
