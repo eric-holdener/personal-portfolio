@@ -1,67 +1,9 @@
-body {
-  margin: 0;
-}
-
-.header-content {
-  background-color: lightblue;
-}
-
-.about-me {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-left: 15vw;
-  padding-right: 15vw;
+.hello-screen, .about-me, .projects, .contact {
+  padding-top: 5vh;
+  height: 95vh;
 }
 
 #profile-photo {
   width: 600px;
   height: auto;
-  flex-grow: 0;
-}
-
-.projects {
-  background-color: #404E5B;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.cards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 1100px;
-}
-
-.card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: white;
-  padding: 15px;
-  margin: 15px;
-  border-radius: 15px;
-  width: 300px;
-  transition: transform .5s;
-}
-
-.card-photo {
-  width: 250px;
-  height: auto;
-}
-
-.card:hover {
-  transform: rotate(-5deg);
-}
-
-.link-images {
-  width: 50px;
-  height: auto;
-  padding-left: 3px;
-  padding-right: 3px;
-}
-
-.card a {
-  text-decoration: none;
 }
