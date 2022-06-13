@@ -16,3 +16,11 @@
 .container > h1 {
   font-size: 80px;
 }
+
+.about-me-styling {
+  color: #222831;
+}
+
+.about-me {
+  filter: drop-shadow(6px 6px 4px #00ADB5);
+}
