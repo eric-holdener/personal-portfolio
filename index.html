@@ -43,10 +43,10 @@
       <div class="container about-me d-flex justify-content-center align-items-center bg-white px-4 py-4 rounded">
         <div class="row gx-0 d-flex align-items-center">
           <div class="col">
-            <img src="assets/img/profile/Eric-gif.jpg" alt="Photo of Eric" id="profile-photo" class="border-bottom border-3 border-dark">
+            <img src="assets/img/profile/Eric-gif.jpg" alt="Photo of Eric" id="profile-photo">
           </div>
           <div class="col bg-white px-4 py-4 d-flex flex-column rounded">
-            <div class="about-me-styling">
+            <div class="card-text-styling">
               <h1>A little about me...</h1>
               <p>
                 Hi! My name is Eric, and I am an aspiring developer. I've been interested in programming for 5 years now, coding bits of little toys and scripts here and there for fun / to make my life easier. I never really thought I was cut out to be a programmer back then though,
@@ -67,73 +67,199 @@
       </div>
     </div>
     <div class="section">
-      <h1>Resume</h1>
-    </div>
-    <div class="section">
-      <div class="container projects">
-        <h1>Personal Projects</h1>
-        <div class="row d-flex">
-          <div class="col d-flex flex-column flex-grow-0">
-            <button class="btn text-nowrap mb-3 mt-3 projectbutton" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFacebook" aria-expanded="false" aria-controls="#collapseFacebook">Facebook Clone</button>
-            <button class="btn text-nowrap projectbutton" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePersonalPortfolio" aria-expanded="false" aria-controls="#collapsePersonalPortfolio">Personal Portfolio</button>
-          </div>
-          <div class="col">
-            <div class="collapse collapse-horizontal" id="collapseFacebook">
-              <div class="card">
-                <div class="card-body">
-                  <div class="card-title">
-                    <div class="row">
-                      <div class="col">
-                        <h2>Facebook Clone</h2>
-                      </div>
-                      <div class="col d-flex justify-content-end">
-                        <a href="https://protected-cliffs-75013.herokuapp.com/">
-                          <img src="assets/img/icons/open-in-new.svg" alt="Open link in new tab" class="link-images">
-                        </a>
-                        <a href="https://github.com/eric-holdener/odin-facebook">
-                          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt='Github Logo' class='link-images'>
-                        </a>
-                        <a href="">
-                          <img src="assets/img/icons/post.svg" alt="Blog icon" class="link-images">
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel odio ultricies, elementum tellus ac, efficitur mauris. Integer ut libero in mauris accumsan sodales ut vel velit. Nulla eu euismod leo. Etiam vel pharetra magna, ut vehicula est. Quisque blandit nulla nec augue eleifend, quis posuere sem eleifend. Quisque sit amet euismod magna. Integer ut lacus feugiat, sollicitudin lorem ac, condimentum orci. Sed fermentum vehicula efficitur. Nullam hendrerit urna dolor.
-                  </p>
+      <!-- add links to slides on first slide -->
+      <!-- add link back to what have i done on all project slides -->
+      <div class="slide">
+        <div class="container d-flex align-items-center bg-white px-4 py-4 rounded projects">
+          <div class="row gx-0 d-flex align-items-center flex-grow-1">
+            <div class="col card-text-styling">
+              <h2 class="card-heading-styling">What have I done?</h2>
+              <p>
+                I get it. You're probably a busy person and might not have time to scroll through and look at ALL my projects. That's ok! I appreciate your time anyways. So, I decided to list out everything I have done here, to
+                make it easier for you. If you see something you like, please check it out more! I only put things I am proud of in this list. Or, if you're just interested in some of my code, you can find a link to my Github in the
+                bottom left of the page.
+              </p>
+              <div class="row">
+                <div class="col">
+                  <h3 class="card-heading-styling-lower">My Projects</h3>
+                  <ul>
+                    <li>Facebook Clone</li>
+                    <li>Personal Portfolio</li>
+                    <li>Twitter Sentiment Analysis Bot</li>
+                    <li>Currently Working On: XXX</li>
+                  </ul>
+                </div>
+                <div class="col">
+                  <h3 class="card-heading-styling-lower">My Tech Stack</h3>
+                  <ul>
+                    <li>Ruby</li>
+                    <li>Python</li>
+                    <li>Ruby on Rails</li>
+                    <li>SQL</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Heroku</li>
+                  </ul>
                 </div>
               </div>
-            </div>
-            <div class="collapse collapse-horizontal" id="collapsePersonalPortfolio">
-              <div class="card">
-                <div class="card-body">
-                  <div class="card-title">
-                    <div class="row">
-                      <div class="col">
-                        <h2>Personal Porfolio</h2>
-                      </div>
-                      <div class="col d-flex justify-content-end">
-                        <a href="">
-                          <img src="assets/img/icons/open-in-new.svg" alt="Open link in new tab" class="link-images">
-                        </a>
-                        <a href="https://github.com/eric-holdener/personal-portfolio">
-                          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt='Github Logo' class='link-images'>
-                        </a>
-                        <a href="">
-                          <img src="assets/img/icons/post.svg" alt="Blog icon" class="link-images">
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel odio ultricies, elementum tellus ac, efficitur mauris. Integer ut libero in mauris accumsan sodales ut vel velit. Nulla eu euismod leo. Etiam vel pharetra magna, ut vehicula est. Quisque blandit nulla nec augue eleifend, quis posuere sem eleifend. Quisque sit amet euismod magna. Integer ut lacus feugiat, sollicitudin lorem ac, condimentum orci. Sed fermentum vehicula efficitur. Nullam hendrerit urna dolor.
-                  </p>
-                </div>
+              <div class="d-flex justify-content-end gx-3">
+                <a href="https://github.com/eric-holdener">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt='Github Logo' class='link-images'>
+                </a>
               </div>
             </div>
           </div>
         </div>
+      </div>
+      <div class="slide">
+        <div class="container d-flex align-items-center bg-white px-4 py-4 rounded projects">
+          <div class="row gx-0 d-flex align-items-center flex-grow-1">
+            <div class="col card-text-styling">
+              <h2 class="card-heading-styling">Facebook Clone</h2>
+              <p>
+                With this project, I set out to create a functioning clone of Facebook, trying to replicate the core features that turned it into the social media giant it is today. This was the capstone project to TheOdinProjects Ruby on Rails curriculum,
+                and allowed me to create a fully functioning app with very little guidance on the part of my learning module. Below you can see some key features I managed to implement, as well as the technology used in the creation. If you want, you can also check
+                out the app for yourself, at the links below. They will take you to the website and to my github repo, where I go more into depth on what I learned and what I want to improve in the future.
+              </p>
+              <div class="row">
+                <div class="col">
+                  <h3 class="card-heading-styling-lower">Core Features</h3>
+                  <ul>
+                    <li>Adding and deleting friends</li>
+                    <li>Creating posts with just text or adding images as well</li>
+                    <li>User profiles and authentication</li>
+                    <li>Image database hosted on a bucket instance of AWS</li>
+                    <li>Liking and disliking posts</li>
+                    <li>Leaving comments</li>
+                  </ul>
+                </div>
+                <div class="col">
+                  <h3 class="card-heading-styling-lower">Tech Stack Utilized</h3>
+                  <ul>
+                    <li>Ruby (and Ruby gems, like Devise)</li>
+                    <li>Ruby on Rails</li>
+                    <li>Postgre SQL</li>
+                    <li>Boostrap</li>
+                    <li>AWS</li>
+                    <li>Heroku</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="d-flex justify-content-end gx-3">
+                <a href="https://protected-cliffs-75013.herokuapp.com/">
+                  <img src="assets/img/icons/open-in-new.svg" alt="Open link in new tab" class="link-images">
+                </a>
+                <a href="https://github.com/eric-holdener/odin-facebook">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt='Github Logo' class='link-images'>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="container d-flex align-items-center bg-white px-4 py-4 rounded projects">
+          <div class="row gx-0 d-flex align-items-center flex-grow-1">
+            <div class="col card-text-styling">
+              <h2 class="card-heading-styling">Personal Portfolio</h2>
+              <p>
+                For this project, I really sat down and tried to hone my design styling. I still have a long way to go to be able to create some of the absolutely gorgeous websites that I see on a daily basis, but it was important to me to
+                have this website, a personal reflection of myself and my work, look great. Over time, I will come back and iterate alot, as I gain more CSS mastery and a better intuitive knowledge of design, but for now I am very happy with
+                how it has turned out. If you want to read more about some more technical challenges I had and thought processes along those lines, the link to the projects github repo can be found in the bottom right of this page. I hope you
+                are enjoying my website so far!
+              </p>
+              <div class="row">
+                <div class="col">
+                  <h3 class="card-heading-styling-lower">Key Takeaways and Learnings</h3>
+                  <ul>
+                    <li>Design Language</li>
+                    <li>Color theory and palettes</li>
+                    <li>User flow through website</li>
+                    <li>More in depth learning of Bootstrap</li>
+                    <li>ALLY accessibility</li>
+                    <li>JS plugins and custom JS for interaction</li>
+                  </ul>
+                </div>
+                <div class="col">
+                  <h3 class="card-heading-styling-lower">Tech Stack Utilized</h3>
+                  <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                    <li>Boostrap</li>
+                    <li>JQuery</li>
+                    <li>Fullpage.js</li>
+                    <li>Github Pages</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="d-flex justify-content-end gx-3">
+                <a href="https://github.com/eric-holdener/personal-portfolio">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt='Github Logo' class='link-images'>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="container d-flex align-items-center bg-white px-4 py-4 rounded projects">
+          <div class="row gx-0 d-flex align-items-center flex-grow-1">
+            <div class="col card-text-styling">
+              <h2 class="card-heading-styling">Twitter Sentiment Analysis</h2>
+              <p>
+                I actually minored in Data Analytics while in college, and as a thought experiment I wanted to try and put together a sentiment analysis bot that could analyze a number of tweets about a given topic and see
+                what people were thinking about it at the time. I actually proved to myself that it worked properly by running it on a sample of 10,000 tweets about Will Smith right after his incident with Chris Rock, and it
+                returned over 50% negative, which I felt was right. If you want to see more about my code, please check out the link to its Github repo below! Unfortunately it functions more as a script than anything so I haven't deployed
+                it, but I would be more than happy to give a demonstration if you are interested! Just find my details in the contact me page down below.
+              </p>
+              <div class="row">
+                <div class="col">
+                  <h3 class="card-heading-styling-lower">Key Takeaways and Learnings</h3>
+                  <ul>
+                    <li>Naive Bayes Theory</li>
+                    <li>Bag of Words processing</li>
+                    <li>Creating appealing graphs with Matplotlib</li>
+                    <li>Pandas data processing</li>
+                    <li>Web scraping and the limitations of scraping social media sites</li>
+                  </ul>
+                </div>
+                <div class="col">
+                  <h3 class="card-heading-styling-lower">Tech Stack Utilized</h3>
+                  <ul>
+                    <li>Python</li>
+                    <li>Pandas</li>
+                    <li>NLTK</li>
+                    <li>Numpy</li>
+                    <li>Twint</li>
+                    <li>Matplotlib</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="d-flex justify-content-end gx-3">
+                <a href="https://github.com/eric-holdener/twitterSentimentAnalysis">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt='Github Logo' class='link-images'>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="container d-flex align-items-center bg-white px-4 py-4 rounded projects">
+          <div class="row gx-0 d-flex align-items-center flex-grow-1">
+            <div class="col card-text-styling">
+              <h2 class="card-heading-styling">Under construction</h2>
+              <p>Currently, I'm working on XXX, but it's not portfolio ready yet. Check back later to see my progress!</p>
+              <p>You can follow along with my progress at: <a href="#" class="card-heading-styling-lower">www.github.com/eric-holdener</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container resume">
+        <h1>Resume</h1>
       </div>
     </div>
     <div class="section">

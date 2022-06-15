@@ -6,6 +6,7 @@
 #profile-photo {
   width: 600px;
   height: auto;
+  border-bottom: 3px solid #00ADB5;
 }
 
 .link-images {
@@ -17,10 +18,32 @@
   font-size: 80px;
 }
 
-.about-me-styling {
+.card-text-styling {
   color: #222831;
 }
 
-.about-me {
+.about-me, .projects {
   filter: drop-shadow(6px 6px 4px #00ADB5);
+}
+
+ul {
+  list-style: none;
+}
+
+ul li::before {
+  content: "\2022";
+  color: #00ADB5;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.card-heading-styling {
+  color: #00ADB5;
+  font-weight: bold;
+}
+
+.card-heading-styling-lower {
+  color: #00ADB5;
 }
