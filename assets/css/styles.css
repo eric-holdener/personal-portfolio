@@ -22,7 +22,7 @@
   color: #222831;
 }
 
-.about-me, .projects {
+.about-me, .projects, .contact {
   filter: drop-shadow(6px 6px 4px #00ADB5);
 }
 
