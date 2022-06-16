@@ -45,5 +45,5 @@ ul li::before {
 }
 
 .card-heading-styling-lower {
-  color: #00ADB5;
+  color: #00ADB5 !important;
 }

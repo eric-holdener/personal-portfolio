@@ -67,9 +67,7 @@
       </div>
     </div>
     <div class="section">
-      <!-- add links to slides on first slide -->
-      <!-- add link back to what have i done on all project slides -->
-      <div class="slide">
+      <div class="slide" data-anchor="project-overview">
         <div class="container d-flex align-items-center bg-white px-4 py-4 rounded projects">
           <div class="row gx-0 d-flex align-items-center flex-grow-1">
             <div class="col card-text-styling">
@@ -83,10 +81,10 @@
                 <div class="col">
                   <h2 class="card-heading-styling-lower">My Projects</h2>
                   <ul>
-                    <li>Facebook Clone</li>
-                    <li>Personal Portfolio</li>
-                    <li>Twitter Sentiment Analysis Bot</li>
-                    <li>Currently Working On: XXX</li>
+                    <li><a href="#projects/facebook-clone" class="card-heading-styling-lower">Facebook Clone</a></li>
+                    <li><a href="#projects/personal-portfolio" class="card-heading-styling-lower">Personal Portfolio</a></li>
+                    <li><a href="#projects/sentiment-analysis" class="card-heading-styling-lower">Twitter Sentiment Analysis Bot</a></li>
+                    <li><a href="#projects/in-progress" class="card-heading-styling-lower">Currently Working On: TBD</a></li>
                   </ul>
                 </div>
                 <div class="col">
@@ -111,7 +109,7 @@
           </div>
         </div>
       </div>
-      <div class="slide">
+      <div class="slide" data-anchor="facebook-clone">
         <div class="container d-flex align-items-center bg-white px-4 py-4 rounded projects">
           <div class="row gx-0 d-flex align-items-center flex-grow-1">
             <div class="col card-text-styling">
@@ -145,19 +143,27 @@
                   </ul>
                 </div>
               </div>
-              <div class="d-flex justify-content-end gx-3">
-                <a href="https://protected-cliffs-75013.herokuapp.com/">
-                  <img src="assets/img/icons/open-in-new.svg" alt="Open link in new tab" class="link-images">
-                </a>
-                <a href="https://github.com/eric-holdener/odin-facebook">
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt='Github Logo' class='link-images'>
-                </a>
+              <div class="row">
+                <div class="col">
+                  <a href="#projects/project-overview" class="btn card-heading-styling-lower">Back to Project Overview</a>
+                </div>
+                <div class="col">
+                  <div class="d-flex justify-content-end gx-3">
+                    <a href="https://protected-cliffs-75013.herokuapp.com/">
+                      <img src="assets/img/icons/open-in-new.svg" alt="Open link in new tab" class="link-images">
+                    </a>
+                    <a href="https://github.com/eric-holdener/odin-facebook">
+                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt='Github Logo' class='link-images'>
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
+
       </div>
-      <div class="slide">
+      <div class="slide" data-anchor="personal-portfolio">
         <div class="container d-flex align-items-center bg-white px-4 py-4 rounded projects">
           <div class="row gx-0 d-flex align-items-center flex-grow-1">
             <div class="col card-text-styling">
@@ -193,16 +199,21 @@
                   </ul>
                 </div>
               </div>
-              <div class="d-flex justify-content-end gx-3">
-                <a href="https://github.com/eric-holdener/personal-portfolio">
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt='Github Logo' class='link-images'>
-                </a>
+              <div class="row">
+                <div class="col">
+                  <a href="#projects/project-overview" class="btn card-heading-styling-lower">Back to Project Overview</a>
+                </div>
+                <div class="d-flex justify-content-end gx-3">
+                  <a href="https://github.com/eric-holdener/personal-portfolio">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt='Github Logo' class='link-images'>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="slide">
+      <div class="slide" data-anchor="sentiment-analysis">
         <div class="container d-flex align-items-center bg-white px-4 py-4 rounded projects">
           <div class="row gx-0 d-flex align-items-center flex-grow-1">
             <div class="col card-text-styling">
@@ -236,22 +247,34 @@
                   </ul>
                 </div>
               </div>
-              <div class="d-flex justify-content-end gx-3">
-                <a href="https://github.com/eric-holdener/twitterSentimentAnalysis">
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt='Github Logo' class='link-images'>
-                </a>
+              <div class="row">
+                <div class="col">
+                  <a href="#projects/project-overview" class="btn card-heading-styling-lower">Back to Project Overview</a>
+                </div>
+                <div class="d-flex justify-content-end gx-3">
+                  <a href="https://github.com/eric-holdener/twitterSentimentAnalysis">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt='Github Logo' class='link-images'>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="slide">
+      <div class="slide" data-anchor="in-progress">
         <div class="container d-flex align-items-center bg-white px-4 py-4 rounded projects">
           <div class="row gx-0 d-flex align-items-center flex-grow-1">
-            <div class="col card-text-styling">
-              <h1 class="card-heading-styling">Under construction</h1>
-              <p>Currently, I'm working on XXX, but it's not portfolio ready yet. Check back later to see my progress!</p>
-              <p>You can follow along with my progress at: <a href="#" class="card-heading-styling-lower">www.github.com/eric-holdener</a></p>
+            <div class="row">
+              <div class="col card-text-styling">
+                <h1 class="card-heading-styling">Under construction</h1>
+                <p>Currently, I'm working on TBD, but it's not portfolio ready yet. Check back later to see my progress!</p>
+                <p>You can follow along with my progress at: <a href="#" class="card-heading-styling-lower">www.github.com/eric-holdener</a></p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <a href="#projects/project-overview" class="btn card-heading-styling-lower">Back to Project Overview</a>
+              </div>
             </div>
           </div>
         </div>
@@ -304,7 +327,8 @@
       licenseKey: '1DK78-N8PB6-UARKK-KVJVJ-TMFGK',
       //options here
       autoScrolling:true,
-      scrollHorizontally: true
+      scrollHorizontally: true,
+      anchors: ['welcome', 'about-me', 'projects', 'resume', 'contact']
     });
   </script>
 </body>
