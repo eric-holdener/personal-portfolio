@@ -47,3 +47,8 @@ ul li::before {
 .card-heading-styling-lower {
   color: #00ADB5 !important;
 }
+
+.custom-align {
+  display: table-cell;
+  vertical-align: middle;
+}
