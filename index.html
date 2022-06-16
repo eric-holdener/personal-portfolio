@@ -42,7 +42,7 @@
     <div class="section">
       <div class="container about-me d-flex justify-content-center align-items-center bg-white px-4 py-4 rounded">
         <div class="row gx-0 d-flex align-items-center">
-          <div class="col">
+          <div class="col d-flex justify-content-center">
             <img src="assets/img/profile/Eric-gif.jpg" alt="Photo of Eric" id="profile-photo">
           </div>
           <div class="col bg-white px-4 py-4 d-flex flex-column rounded">
@@ -80,7 +80,7 @@
               <div class="row">
                 <div class="col">
                   <h2 class="card-heading-styling-lower">My Projects</h2>
-                  <ul>
+                  <ul class="projects-list">
                     <li><a href="#projects/facebook-clone" class="card-heading-styling-lower">Facebook Clone</a></li>
                     <li><a href="#projects/personal-portfolio" class="card-heading-styling-lower">Personal Portfolio</a></li>
                     <li><a href="#projects/sentiment-analysis" class="card-heading-styling-lower">Twitter Sentiment Analysis Bot</a></li>
@@ -89,7 +89,7 @@
                 </div>
                 <div class="col">
                   <h2 class="card-heading-styling-lower">My Tech Stack</h2>
-                  <ul>
+                  <ul class="projects-list">
                     <li>Ruby</li>
                     <li>Python</li>
                     <li>Ruby on Rails</li>
@@ -122,7 +122,7 @@
               <div class="row">
                 <div class="col">
                   <h2 class="card-heading-styling-lower">Core Features</h2>
-                  <ul>
+                  <ul class="projects-list">
                     <li>Adding and deleting friends</li>
                     <li>Creating posts with just text or adding images as well</li>
                     <li>User profiles and authentication</li>
@@ -133,7 +133,7 @@
                 </div>
                 <div class="col">
                   <h2 class="card-heading-styling-lower">Tech Stack Utilized</h2>
-                  <ul>
+                  <ul class="projects-list">
                     <li>Ruby (and Ruby gems, like Devise)</li>
                     <li>Ruby on Rails</li>
                     <li>Postgre SQL</li>
@@ -177,7 +177,7 @@
               <div class="row">
                 <div class="col">
                   <h2 class="card-heading-styling-lower">Key Takeaways and Learnings</h2>
-                  <ul>
+                  <ul class="projects-list">
                     <li>Design Language</li>
                     <li>Color theory and palettes</li>
                     <li>User flow through website</li>
@@ -188,7 +188,7 @@
                 </div>
                 <div class="col">
                   <h2 class="card-heading-styling-lower">Tech Stack Utilized</h2>
-                  <ul>
+                  <ul class="projects-list">
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>Javascript</li>
@@ -227,7 +227,7 @@
               <div class="row">
                 <div class="col">
                   <h2 class="card-heading-styling-lower">Key Takeaways and Learnings</h2>
-                  <ul>
+                  <ul class="projects-list">
                     <li>Naive Bayes Theory</li>
                     <li>Bag of Words processing</li>
                     <li>Creating appealing graphs with Matplotlib</li>
@@ -237,7 +237,7 @@
                 </div>
                 <div class="col">
                   <h2 class="card-heading-styling-lower">Tech Stack Utilized</h2>
-                  <ul>
+                  <ul class="projects-list">
                     <li>Python</li>
                     <li>Pandas</li>
                     <li>NLTK</li>
@@ -334,7 +334,8 @@
       //options here
       autoScrolling:true,
       scrollHorizontally: true,
-      anchors: ['welcome', 'about-me', 'projects', 'resume', 'contact']
+      anchors: ['welcome', 'about-me', 'projects', 'resume', 'contact'],
+      slidesNavigation: true,
     });
   </script>
 </body>
